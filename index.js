@@ -25,7 +25,7 @@ async function addUser(event){
 
 async function showUser(obj){
    let li = document.createElement('li');
-   li.id=`${obj.username}`
+   li.id=`${obj.id}`
    let delBtn = document.createElement('button');
    delBtn.className='btn btn-danger delete';
    delBtn.appendChild(document.createTextNode('Delete'));
